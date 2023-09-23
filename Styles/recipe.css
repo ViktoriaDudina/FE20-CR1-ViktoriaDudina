@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: rgb(255, 140, 9);
+  --font-family: "Original Surfer", "Gloock", "Happy Monkey", cursive;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+
+.header form {
+  margin-left: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  margin: 0 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+.top {
+  width: 100%;
+  background-color: var(--bg-color);
+  position: relative;
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+
+.topnav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  font-family: "Original Surfer", "Gloock", "Happy Monkey", cursive;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  color: #140606;
+}
+
+li {
+  color: #140606;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #0b7112;
+}
+
+h2 {
+  color: #3998A3;
+}
+
+h3 {
+  color: #474747;
+}
+
+.hero {
+  background: rgb(0, 222, 160);
+  background: linear-gradient(90deg, rgba(0, 222, 160, 0.4431897759) 0%, rgba(246, 19, 165, 0.4235819328) 50%, rgb(0, 222, 160) 100%);
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.hero h3 {
+  text-shadow: 5px 5px 5px #6b6b6b;
+}
+
+.hero img {
+  width: 30%;
+}
+
+.hero h2 {
+  text-shadow: 5px 5px 5px #6b6b6b;
+}
+
+.footer {
+  background-color: var(--bg-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer .footer-links {
+  margin-bottom: 10px;
+}
+
+.footer .social-media-widgets {
+  margin-bottom: 10px;
+}
+
+.footer .social-media-widgets a {
+  margin: 0 10px;
+}
+
+.footer .copyright {
+  font-size: 14px;
+}
+
+.social-media-widgets {
+  display: inline;
+  width: 100px;
+}/*# sourceMappingURL=recipe.css.map */
